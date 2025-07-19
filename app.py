@@ -12,7 +12,7 @@ st.title("Digit Classifier (k-NN + PCA, NN, CNN)")
 @st.cache_resource
 def load_models():
     knn_pca = pickle.load(open("knn_model.pkl", "rb"))
-    nn_model = tf.keras.models.load_model("mnist_nn_model.keras")
+    nn_model = tf.keras.models.load_model("mnist_nn_dropout.keras")
     cnn_model = tf.keras.models.load_model("cnn_model.keras")
     return knn_pca, nn_model, cnn_model
 
