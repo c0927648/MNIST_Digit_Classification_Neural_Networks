@@ -1,4 +1,14 @@
-# MNIST_Digit_Classification_Neural_Networks
-Build, train, and evaluate a neural network model to classify handwritten digits using the MNIST dataset
+# MNIST Digit Classification App
 
-Streamlit IO Link - https://mnist-classification-assignment4.streamlit.app/
+This Streamlit app allows users to upload a handwritten digit image and classify it using three different models:
+- **k-NN with PCA**
+- **Neural Network with Dropout**
+- **Convolutional Neural Network (CNN)**
+
+## Features
+
+- Upload 28x28 grayscale images (`.png`, `.jpg`, `.jpeg`)
+- View predictions and optional probability scores
+- Compare model performance
+
+**Streamlit IO Link** - https://mnist-classification-assignment4.streamlit.app/
